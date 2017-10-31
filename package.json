@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/dreadsovereign/nyt-mongo-scraper/issues"
   },
-  "homepage": "https://github.com/dreadsovereign/nyt-mongo-scraper#readme"
+  "homepage": "https://github.com/dreadsovereign/nyt-mongo-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.5",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
 }
