@@ -32,7 +32,9 @@ app.engine("handlebars", exphbs({
 }));
 app.set("view engine", "handlebars");
 
-mongoose.connect("mongodb://localhost/nytmongoscraper");
+mongoose.connect("mongodb://heroku_0c41jvsd:jhtq3t4np9lcd5jh1d8upqfori@ds141185.mlab.com:41185/heroku_0c41jvsd");
+
+//mongoose.connect("mongodb://localhost/nytmongoscraper");
 
 var db = mongoose.connection;
 
