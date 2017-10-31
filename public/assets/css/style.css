@@ -1,0 +1,35 @@
+body {
+    background-color: #222831;  
+    padding-top: 80px;
+}
+
+.deleteNote {
+  display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+
+.panel-default>.panel-heading-custom {
+    color: #fff;
+    background: #F96D00;
+    border-color: #F96D00;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+ }
+
+ .navbar-custom {
+  background: #F96D00;
+  border-color: #F96D00;
+ }
+
+
